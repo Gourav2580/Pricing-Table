@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Pricing Table</title>
+    <style>
+        body{
+            margin: 0px;
+            background-color: #261626;
+        }
+        ul{
+            list-style: none;
+            padding-left: 0px;
+
+        }
+        .myul > li{
+            display: inline-block;
+            width: 24%;
+            min-height: 385px;
+            border: 1px dashed red;
+        }
+        .myul ul > li:first-child{
+            height: 115px;
+            background-color: #16b99c;
+        }
+        .myul ul > li:last-child{
+            height: 75px;
+            border: 1px dashed red;
+            background-color: transparent;
+        }
+        .myul > li ul li:last-child{
+            text-align: center;
+        }
+        .myul > li ul li:last-child button{
+            padding: 10px 30px;
+            font-size: 1.5em;
+            color: #fff;
+            border: 2px solid #16b99c;
+            background-color: transparent !important;
+        }
+        .myul > li ul li:not(.myul > li ul li:first-child,.myul > li ul li:last-child){
+            border: 1px solid #5b5b5b;
+            height: 35px;
+        }
+
+        /*@media not|only mediatype and (mediafeature and|or|not mediafeature) {
+  CSS-Code;*/
+        @media only screen and (max-width: 411px) {
+            .myul > li{
+                width: 100% !important;
+            }
+            
+        }
+        @media only screen and(min-width:412px) and (max-width: 1024px) {
+            .myul > li{
+                width: 50% !important;
+            }
+            
+        }
+
+    </style>
+
+</head>
+<body>
+    <ul class="myul">
+        <li>
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>
+                    <button>Request offer</button>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>
+                    <button>Request offer</button>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>
+                    <button>Request offer</button>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>
+                    <button>Request offer</button>
+                </li>
+            </ul>
+      
+        </li>  
+    </ul>
+    
+</body>
+</html>
